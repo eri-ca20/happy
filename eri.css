@@ -138,8 +138,8 @@ font-weight: bold;/*文字粗體*/
     border-radius: 10px; /* 圓角 */
     background-color: #74e1ff; /* 背景顏色 */
     display: inline-block; /* 內聯元素 */
-    margin-left: 300px; /* 上下邊距10px，左右自動 */
-    margin-bottom: 600px; /* 上下邊距10px，左右自動 */
+    margin-left: 30px; /* 上下邊距10px，左右自動 */
+    margin-bottom: 60px; /* 上下邊距10px，左右自動 */
     text-align: center; /* 文字置中 */
     padding: 5px; /* 內邊距 */;
   }

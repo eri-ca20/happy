@@ -2,9 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,user-scaleable=no,maximum-scale=1,minimum-scale=1"
+    />
     <title>火龍果</title>
     <link rel="stylesheet" href="./eri.css" />
+    <script src="./index.js"></script>
   </head>
   <body>
     <header>
@@ -120,5 +124,120 @@
         <div class="triangle"></div>
       </div>
     </main>
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .rwd-box {
+        width: 25%;
+        padding: 10px;
+      }
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+        background-color: #bc92ad;
+      }
+      .card .title {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+      .card .content {
+        font-size: 0.5em;
+        color: rgb(189, 177, 177);
+      }
+
+      @media screen and (max-width: 480px) {
+        .rwd-box {
+          width: 100%;
+        }
+      }
+      @media screen and (min-width: 481px) and (max-width: 768px) {
+        .rwd-box {
+          width: 50%;
+        }
+      }
+      @media screen and (min-width: 769px) {
+        .rwd-box {
+          width: 25%;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        .rwd-box {
+          width: 20%;
+        }
+      }
+    </style>
+    <div class="container">
+      <div class="rwd-box">
+        <div class="card">
+          <img src="./水果.jpg" alt="火龍果圖片" />
+          <div class="title">火龍果</div>
+          <div class="content">這是火龍果的介紹。</div>
+        </div>
+      </div>
+      <div class="rwd-box">
+        <div class="card">
+          <img src="./水果.jpg" alt="火龍果圖片" />
+          <div class="title">火龍果</div>
+          <div class="content">這是火龍果的介紹。</div>
+        </div>
+      </div>
+      <div class="rwd-box">
+        <div class="card">
+          <img src="./水果.jpg" alt="火龍果圖片" />
+          <div class="title">火龍果</div>
+          <div class="content">這是火龍果的介紹。</div>
+        </div>
+      </div>
+      <div class="rwd-box">
+        <div class="card">
+          <img src="./水果.jpg" alt="火龍果圖片" />
+          <div class="title">火龍果</div>
+          <div class="content">這是火龍果的介紹。</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="rwd-box">
+        <div class="card">
+          <img src="./水果.jpg" alt="火龍果圖片" />
+          <div class="title">火龍果</div>
+          <div class="content">這是火龍果的介紹。</div>
+        </div>
+      </div>
+      <div class="rwd-box">
+        <div class="card">
+          <img src="./水果.jpg" alt="火龍果圖片" />
+          <div class="title">火龍果</div>
+          <div class="content">這是火龍果的介紹。</div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .spinner {
+        width: 50px;
+        height: 50px;
+        border: 10px solid #004e22;
+        border-top: 10px solid #ff00b3;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(365deg);
+        }
+      }
+    </style>
+    <div class="spinner"></div>
   </body>
 </html>
