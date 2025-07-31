@@ -22,7 +22,7 @@ hi {
   color: green;}
 
   .red-text{background-color: yellow;/*背景*/
-    background: url(123.jpg) center no-repeat;
+    background: url(水果.jpg) center no-repeat;
     text-align: center;/*文字置中*/
     margin: 10px;/*外邊距*/
     width: 50px;/*寬度*/
