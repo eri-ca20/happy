@@ -121,4 +121,26 @@ b = 20;
 console.log(whichIsBig(a, b)); // 20
 
 //用for迴圈做99乘法表
-//成績的計算方式 95以上=a+ 90-94 A 80=89 B 70-79=C 0=69 D
+let ii = 0;
+for(let i=1; i<=9; i++) 
+  for(let j=1; j<=9; j++)
+  {
+    console.log(i + " * " + j + " = " + (i * j));
+  }
+
+//成績的計算方式 95以上=a+ 90-94 A 80=89 B 70-79=C 60-69=D
+let score = 85; // 假設成績為85
+if (score >= 95 && score <= 100) {
+  console.log("A+");
+}
+else if (score >= 90 && score < 95) {
+  console.log("A");
+} else if (score >= 80 && score < 90) {
+  console.log("B");
+} else if (score >= 70 && score < 80) {
+  console.log("C");
+} else if (score >= 60 && score < 70) {
+  console.log("D");
+} else {
+  console.log("F");
+}
